@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Design Compact Demo</title>
+</head>
+<body bgcolor="lightyellow" text="black">
+
+<a name="rahand"></a>
+
+  <h1 align="center">🏷 Web Design & Development — Demo Page</h1>
+  <hr size="5" color="blue" width="400" align="center">
+
+  <h2>Text Formatting</h2>
+  <p>This is <b>bold</b>, <i>italic</i>, <u>underlined</u>, 
+     <mark>highlighted</mark>, CO<sub>2</sub>, X<sup>3</sup>-2X<sup>2</sup>+1.</p>
+
+  <h2>Lists</h2>
+  <h3>Unordered</h3>
+  <ul type="square">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ul>
+
+  <h3>Ordered with Nested</h3>
+  <ol type="I">
+    <li>Item one</li>
+    <li>Item two
+      <ol type="a">
+        <li>Sub one</li>
+        <li>Sub two</li>
+      </ol>
+    </li>
+    <li>Item three</li>
+  </ol>
+
+  <h3>Description List</h3>
+  <dl>
+    <dt>Hardware</dt>
+    <dd>Tangible part of computer</dd>
+    <dt>Software</dt>
+    <dd>Programs & data</dd>
+  </dl>
+
+  <h2>Links</h2>
+  <p><a href="http://www.google.com" target="_blank">Google</a></p>
+  <p><a href="mailto:example@mail.com">Send Email</a></p>
+  <p><a href="#bookmark">Jump to Bookmark Below</a></p>
+
+  <h2>Colors</h2>
+  <h3 style="background-color:tomato">Tomato Color (name)</h3>
+  <h3 style="background-color:rgb(255,0,0)">RGB Red</h3>
+  <h3 style="background-color:#00ff00">HEX Green</h3>
+  <h3 style="background-color:hsl(240,100%,50%)">HSL Blue</h3>
+  <h3 style="background-color:rgba(255,99,71,0.5)">RGBA Transparent</h3>
+
+  <h2>Images</h2>
+  <img src="https://via.placeholder.com/200" width="200" height="150" alt="Sample image">
+  <br>
+  <a href="http://www.example.com">
+    <img src="https://via.placeholder.com/150" alt="Clickable image link">
+  </a>
+
+  <h2>iFrame</h2>
+  <iframe src="https://www.wikipedia.org" width="400" height="200"></iframe>
+
+  <br><br>
+<center>
+ <big><a href="#rahand">Top</a></big> 
+</center>
+
+
+</body>
+</html>
