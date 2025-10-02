@@ -1,0 +1,56 @@
+[rh.html](https://github.com/user-attachments/files/22659021/rh.html)
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Form Demo</title>
+</head>
+<body bgcolor="lightblue">
+
+  <h1 align="center">📝 Contact Form — Demo</h1>
+  <hr width="400" size="4" color="navy">
+
+  <!-- Form Example -->
+  <form action="mailto:example@mail.com" method="post">
+
+    <h3>Personal Information</h3>
+    Full Name: <input type="text" name="fullname" size="30"><br><br>
+    Email: <input type="email" name="email" size="30"><br><br>
+    Password: <input type="password" name="pwd"><br><br>
+
+    <h3>Preferences</h3>
+    Choose your favorite drink: <br>
+    <input type="radio" name="drink" value="coffee"> Coffee <br>
+    <input type="radio" name="drink" value="tea"> Tea <br>
+    <input type="radio" name="drink" value="milk"> Milk <br><br>
+
+    Select your skills: <br>
+    <input type="checkbox" name="skill" value="html"> HTML
+    <input type="checkbox" name="skill" value="css"> CSS
+    <input type="checkbox" name="skill" value="js"> JavaScript
+    <br><br>
+
+    Country: 
+    <select name="country">
+      <option value="iq">Iraq</option>
+      <option value="us">USA</option>
+      <option value="uk">UK</option>
+      <option value="de">Germany</option>
+    </select>
+    <br><br>
+
+    Message:<br>
+    <textarea name="message" rows="5" cols="40"></textarea>
+    <br><br>
+
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
+
+  </form>
+
+  <hr>
+  <p align="center">✅ This demo shows basic form controls in HTML.</p>
+
+
+</body>
+</html>
